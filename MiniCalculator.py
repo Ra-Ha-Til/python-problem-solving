@@ -1,6 +1,6 @@
 #basic mini calculator
 a = float(input("Enter the first number:"))
-b = int(input("Enter the 2nd number:"))
+b = float(input("Enter the 2nd number:"))
 op = input("Which you want to do:(+, -, *, /, **, %):")
 
 if op == '+':
