@@ -36,7 +36,16 @@ Number is negative"""
 
 #______________________________Ans-2________________________
 
-number = int(input("Enter the number:"))
+"""number = int(input("Enter the number:"))
 
 if number <0:
-    print("Number is negative")
+    print("Number is negative")"""
+
+
+#__________________________________qUES-3________________
+
+a = int (input("Enter the first number:"))
+b = int (input("Enter the second number:"))
+
+if a>b and a<100:
+    print("A is greater than B and less than 100")
