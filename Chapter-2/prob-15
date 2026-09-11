@@ -1,0 +1,14 @@
+username = int (input("Enter username:"))
+password = int(input("Enter password:"))
+is_active = int(input("Enter active user:"))
+
+if is_active ==1:
+    if username ==1:
+        if password ==1:
+            print("Login Successful")
+        else:
+            print("Wrong Password")
+    else:
+      print("Wrong Username")
+else:
+    print("Account Inactive")

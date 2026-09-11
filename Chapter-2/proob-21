@@ -1,0 +1,23 @@
+units = int(input("Enter your units:"))
+is_member = int(input("Are you member?(0/1)"))
+
+if units <= 100:
+    if is_member == 1:
+        print("Low Usage Discount")
+    else:
+        print("Low Usage")
+else:
+   
+      if is_member ==1:
+         if units <=300:
+            print("Medium Usage Discount")
+         else:
+             print("High Usage Discount")
+      else:
+        if units <=300:
+            print("Medium Usage")
+        else:
+            print("High Usage")
+       
+        
+
